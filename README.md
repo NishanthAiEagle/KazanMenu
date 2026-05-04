@@ -1,1 +1,1 @@
-# KazanMenu
+# KazanJapaneseRamen
