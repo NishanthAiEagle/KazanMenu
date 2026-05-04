@@ -671,6 +671,11 @@
 
 <script>
 const DISH_IMAGES = {
+  
+  "Tantanmen": "data:image/png;base64,/9j/4AAQ...",
+  "ShioRamen": "data:image/png;base64,/9j/4AAQ...",
+  "ShoyuRamen": "data:image/png;base64,/9j/4AAQ...",
+  "KaramisoRamen": "data:image/png;base64,/9j/4AAQ...",
   "Agedashi-Tofu": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACA...",
   "Edamame": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACA...",
   "Gyoza": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACA...",
@@ -684,6 +689,10 @@ const DISH_IMAGES = {
 };
 
 const LOCAL_ASSETS = {
+  'KaramisoRamen':    { folder: 'KaramisoRamen',    file: 'KaramisoRamen',    scale: 0.15 },
+  'ShioRamen':        { folder: 'ShioRamen',         file: 'ShioRamen',       scale: 0.06 },
+  'ShoyuRamen':       { folder: 'ShoyuRamen',        file: 'ShoyuRamen',       scale: 0.3  },
+  'Tantanmen':        { folder: 'Tantanmen',         file: 'Tantanmen',        scale: 0.15 },
   'agedashi tofu':    { folder: 'Agedashi-Tofu',    file: 'Agedashi-Tofu',    scale: 0.15 },
   'edamame':          { folder: 'Edamame',           file: 'Edamame',          scale: 0.06 },
   'gyoza':            { folder: 'Gyoza',             file: 'Gyoza',            scale: 0.3  },
@@ -715,6 +724,10 @@ const SHEET_GID = '0';
 const CSV_URL   = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=${SHEET_GID}`;
 
 const EMOJI_MAP = {
+  'KaramisoRamen':    '🍦',
+  'ShioRamen':    '🍦',
+  'ShoyuRamen':    '🍦',
+  'Tantanmen':    '🍦',
   'gyoza':            '🥟',
   'edamame':          '🫘',
   'karaage':          '🍗',
