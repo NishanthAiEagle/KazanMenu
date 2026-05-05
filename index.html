@@ -671,28 +671,28 @@
 
 <script>
 const DISH_IMAGES = {
-  
-  "Tantanmen": "data:image/png;base64,/9j/4AAQ...",
-  "ShioRamen": "data:image/png;base64,/9j/4AAQ...",
-  "ShoyuRamen": "data:image/png;base64,/9j/4AAQ...",
-  "KaramisoRamen": "data:image/png;base64,/9j/4AAQ...",
-  "Agedashi-Tofu": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACA...",
-  "Edamame": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACA...",
-  "Gyoza": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACA...",
-  "Karaage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACA...",
-  "Matcha-Ice-Cream": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACA...",
-  "Miso-Soup": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACA...",
-  "Ramen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACA...",
-  "Salmon-Sashimi": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACA...",
-  "Takoyaki": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACA...",
-  "Tempura": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACA..."
+
+  'karamisoramen':    '3d-model/KaramisoRamen/karamisoramen.png',
+  'shioramen':        '3d-model/ShioRamen/shioramen.png',
+  'shoyuramen':       '3d-model/ShoyuRamen/shoyuramen.png',
+  'tantanmen':        '3d-model/Tantanman/Tantanmen.png',
+  'agedashi tofu':    '3d-model/Agedashi-Tofu/Agedashi-Tofu.png',
+  'edamame':          '3d-model/Edamame/Edamame.png',
+  'gyoza':            '3d-model/Gyoza/Gyoza.png',
+  'karaage':          '3d-model/Karaage/Karaage.png',
+  'matcha ice cream': '3d-model/Matcha-Ice-Cream/Matcha-Ice-Cream.png',
+  'miso soup':        '3d-model/Miso-Soup/Miso-Soup.png',
+  'ramen':            '3d-model/Ramen/Ramen.png',
+  'salmon sashimi':   '3d-model/Salmon-Sashimi/Salmon-Sashimi.png',
+  'takoyaki':         '3d-model/Takoyaki/Takoyaki.png',
+  'tempura':          '3d-model/Tempura/Tempura.png',
 };
 
 const LOCAL_ASSETS = {
-  'karamisoramen':    { folder: 'KaramisoRamen',  file: 'KaramisoRamen',  scale: 0.15 },
-  'shioramen':        { folder: 'ShioRamen',       file: 'ShioRamen',      scale: 0.06 },
-  'shoyuramen':       { folder: 'ShoyuRamen',      file: 'ShoyuRamen',     scale: 0.3  },
-  'tantanmen':        { folder: 'Tantanmen',       file: 'Tantanmen',      scale: 0.15 },
+   'karamisoramen': { folder: 'KaramisoRamen', file: 'KaramisoRamen', scale: 0.15 },
+  'shioramen':     { folder: 'ShioRamen',     file: 'ShioRamen',     scale: 0.2  },
+  'shoyuramen':    { folder: 'ShoyuRamen',    file: 'ShoyuRamen',    scale: 0.2  },
+  'tantanmen':     { folder: 'Tantanman',     file: 'tantanman',     scale: 0.15 },
   'agedashi tofu':    { folder: 'Agedashi-Tofu',    file: 'Agedashi-Tofu',    scale: 0.15 },
   'edamame':          { folder: 'Edamame',           file: 'Edamame',          scale: 0.06 },
   'gyoza':            { folder: 'Gyoza',             file: 'Gyoza',            scale: 0.3  },
@@ -724,10 +724,10 @@ const SHEET_GID = '0';
 const CSV_URL   = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=csv&gid=${SHEET_GID}`;
 
 const EMOJI_MAP = {
-  'KaramisoRamen':    '🍦',
-  'ShioRamen':    '🍦',
-  'ShoyuRamen':    '🍦',
-  'Tantanmen':    '🍦',
+ 'karamisoramen': '🍜',
+  'shioramen':     '🍜',
+  'shoyuramen':    '🍜',
+  'tantanmen':     '🍜',
   'gyoza':            '🥟',
   'edamame':          '🫘',
   'karaage':          '🍗',
